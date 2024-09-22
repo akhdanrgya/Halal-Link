@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
       {/* Home Section */}
-      <section className="flex gap-4 py-8 md:py-10 justify-around">
+      <section className="flex gap-4 py-8 md:py-10 justify-around items-center">
         <div className="inline-block max-w-xl">
           <span className={title()}>HALAL&nbsp;</span>
           <span className={title({ color: "green" })}>LINK&nbsp;</span>
