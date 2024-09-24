@@ -75,7 +75,9 @@ export default function Home() {
         <div className="inline-block max-w-xl">
           <span className={title({ color: "blue" })}>Event&nbsp;</span>
         </div>
+        <div className="py-10">
           <ProductCard/>
+        </div>
       </section>
 
       {/* Contact Section */}
