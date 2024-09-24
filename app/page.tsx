@@ -3,6 +3,9 @@ import { Snippet } from "@nextui-org/snippet";
 import { Code } from "@nextui-org/code";
 import { button as buttonStyles } from "@nextui-org/theme";
 import { title, subtitle } from "@/components/primitives";
+import ProductCard from "@/components/productCard";
+
+
 export default function Home() {
   return (
     <main>
@@ -70,8 +73,9 @@ export default function Home() {
       {/* Product Section */}
       <section className="flex flex-col gap-4 py-8 md:py-10 items-center">
         <div className="inline-block max-w-xl">
-          <span className={title({ color: "blue" })}>Product&nbsp;</span>
+          <span className={title({ color: "blue" })}>Event&nbsp;</span>
         </div>
+          <ProductCard/>
       </section>
 
       {/* Contact Section */}
