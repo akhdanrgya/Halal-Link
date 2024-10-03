@@ -19,7 +19,7 @@ import { ThemeSwitch } from "@/components/theme-switch";
 import {
   TwitterIcon,
   GithubIcon,
-  Logo,
+  InstagramIcon,
 } from "@/components/icons";
 
 export const Navbar = () => {
@@ -54,8 +54,8 @@ export const Navbar = () => {
         justify="end"
       >
         <NavbarItem className="hidden sm:flex gap-2">
-          <Link isExternal aria-label="Twitter" href={siteConfig.links.twitter}>
-            <TwitterIcon className="text-default-500" />
+          <Link isExternal aria-label="Twitter" href={siteConfig.links.instagram}>
+            <InstagramIcon className="text-default-500" />
           </Link>
           <ThemeSwitch />
         </NavbarItem>
