@@ -12,41 +12,34 @@ export default function Home() {
       {/* Home Section */}
       <section className="flex gap-4 py-8 md:py-10 justify-around items-center h-screen">
         <div className="inline-block max-w-xl">
-          <span className={title()}>HALAL&nbsp;</span>
-          <span className={title({ color: "green" })}>LINK&nbsp;</span>
-          <span className={subtitle()}>Bringing Together Faith and Community</span>
-        </div>
-
-        <div className="inline-block">
-          <Image src="/logo.png" alt="Logo" width={300} height={300} />
+          <span className={title()}>Kencana&nbsp;</span>
+          <span className={title({ color: "green" })}>Mandiri&nbsp;</span>
+          <span className={subtitle()}>
+            Bringing Together Faith and Community
+          </span>
         </div>
       </section>
 
       {/* About Section */}
 
-      <section className="flex flex-col gap-4 py-8 md:py-10">
+      <section className="flex flex-col gap-4 py-8 md:py-10 h-1/2">
         <div className="inline-block max-w-xl">
-          <span className={title()}>Tentang HALAL&nbsp;</span>
-          <span className={title({ color: "green" })}>LINK&nbsp;</span>
+          <span className={title()}>Tata Kencana Mandiri</span>
         </div>
-
         <div>
-          Halal Link adalah event organizer Islami yang berdedikasi
-          untuk menciptakan event-event bermakna yang menginspirasi dan
-          memperkuat nilai-nilai Islam dalam kehidupan sehari-hari. Kami percaya
-          bahwa setiap acara bisa menjadi momen untuk memperdalam keimanan dan
-          mempererat tali silaturahmi di antara umat. Dengan berbagai acara
-          islami mulai dari seminar, konferensi, hingga kegiatan sosial, Halal
-          Link hadir sebagai jembatan yang menghubungkan komunitas dengan
-          inspirasi Islami. Visi kami adalah menjadi EO Islami terdepan yang
-          membawa keberkahan bagi setiap langkah acara yang kami selenggarakan.
+          Perusahaan furniture yang telah berhasil menembus pasar internasional.
+          Dengan fokus pada kualitas tinggi dan desain inovatif, perusahaan ini
+          memproduksi berbagai produk furniture untuk kebutuhan rumah tangga dan
+          proyek komersial. Berpengalaman dalam ekspor, perusahaan ini dikenal
+          karena ketelitian dalam produksi dan kepuasan pelanggan di berbagai
+          negara.
         </div>
       </section>
 
       {/* Product Section */}
       <section className="flex flex-col gap-4 py-8 md:py-10 items-center">
         <div className="inline-block max-w-xl">
-          <span className={title({ color: "blue" })}>Event&nbsp;</span>
+          <span className={title({ color: "blue" })}>Product&nbsp;</span>
         </div>
         <div className="py-10">
           <ProductCard />

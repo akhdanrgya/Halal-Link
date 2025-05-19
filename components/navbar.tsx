@@ -57,7 +57,6 @@ export const Navbar = () => {
           <Link isExternal aria-label="Twitter" href={siteConfig.links.instagram}>
             <InstagramIcon className="text-default-500" />
           </Link>
-          <ThemeSwitch />
         </NavbarItem>
       </NavbarContent>
 
@@ -65,7 +64,6 @@ export const Navbar = () => {
         <Link isExternal aria-label="Github" href={siteConfig.links.github}>
           <GithubIcon className="text-default-500" />
         </Link>
-        <ThemeSwitch />
         <NavbarMenuToggle />
       </NavbarContent>
 
