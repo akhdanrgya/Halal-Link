@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Halal Link",
-  description: "Halal Link Anjay",
+  name: "Kencana Mandiri",
+  description: "PT. Kencana Mandiri",
   navItems: [
     {
       label: "Home",
