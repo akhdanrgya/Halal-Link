@@ -14,9 +14,7 @@ export default function Home() {
         <div className="inline-block max-w-xl">
           <span className={title()}>Kencana&nbsp;</span>
           <span className={title({ color: "green" })}>Mandiri&nbsp;</span>
-          <span className={subtitle()}>
-            Bringing Together Faith and Community
-          </span>
+          <span className={subtitle()}>Natural Storage, Timeless Style.</span>
         </div>
       </section>
 
@@ -51,6 +49,11 @@ export default function Home() {
         <div className="inline-block max-w-xl">
           <span className={title({ color: "violet" })}>Contact&nbsp;</span>
           <span className={title()}>Me&nbsp;</span>
+        </div>
+        <div>
+          <p>
+            Whatsapp : +62 8561 6635 63 
+          </p>
         </div>
       </section>
     </main>

@@ -11,17 +11,17 @@ export interface Event {
       imageUrl: "/image/product/1.jpeg"
     },
     {
-      nama: "Startup Talks",
+      nama: "Classic  Natural Rattan Chair",
       desc: "Sharing bareng founder-founder lokal",
       imageUrl: "/image/product/2.jpeg"
     },
     {
-      nama: "Bakti Sosial",
+      nama: "Round Rattan Accent Table",
       desc: "Kegiatan sosial dan donasi untuk masyarakat",
       imageUrl: "/image/product/3.jpeg"
     },
     {
-      nama: "Bakti Sosial",
+      nama: "Rattan Pendant Light Shade",
       desc: "Kegiatan sosial dan donasi untuk masyarakat",
       imageUrl: "/image/product/4.jpeg"
     }
