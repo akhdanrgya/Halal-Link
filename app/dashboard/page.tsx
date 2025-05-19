@@ -1,7 +1,6 @@
 "use client";
 
 import { title } from "@/components/primitives";
-import { supabase } from "@/libs/supabaseClient";
 import React, { useState, useEffect } from "react";
 import ProductCard from "@/components/productCard";
 
